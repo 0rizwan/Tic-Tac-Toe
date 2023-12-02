@@ -1,0 +1,15 @@
+@media screen and (max-width: 800px) {
+    .gameContainer{
+        flex-wrap: wrap;
+    }
+    .container{
+        grid-template-columns: repeat(3, 23vw);
+        grid-template-rows: repeat(3, 23vw);
+    }
+    .gameInfo {
+        margin-top: 30px;
+    }
+    .gameInfo h1{
+        font-size: 1.5rem;
+    }
+}
